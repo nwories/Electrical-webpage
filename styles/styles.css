@@ -106,8 +106,8 @@
 #navBar {
   position: fixed;
   top: 0;
-  width: 300px;
-  right: -300px;
+  width: 500px;
+  right: -500px;
   z-index: 1;
   transition: 3s;
 }
@@ -208,7 +208,7 @@ nav .nav-links a:hover {
   }
 
   #navBar {
-    width: 170px;
+    width: 150px;
     background-color: #000;
     height: fit-content;
     text-align: center;
@@ -272,12 +272,13 @@ nav .nav-links a:hover {
 .container {
   margin: 10px 50px;
   padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .text-features {
   width: 25%;
   color: white;
   padding: 20px;
-  float: inline-end;
   margin-top: 20px;
   border: 8px solid #8c000f;
   border-radius: 0 20px 0 20px;
